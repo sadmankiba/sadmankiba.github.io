@@ -1224,7 +1224,7 @@
                 localStorage.setItem('dark_mode', '1');
                 isDarkTheme = 1;
                 console.info('User changed theme variation to Dark.');
-                $themeChanger.removeClass('fa-moon fa-sun').addClass('fa-palette');
+                $themeChanger.removeClass('fa-moon').addClass('fa-sun');
                 break;
                 // case 1:
                 //     localStorage.setItem('dark_mode', '2');
@@ -1236,7 +1236,7 @@
                 localStorage.setItem('dark_mode', '0');
                 isDarkTheme = 0;
                 console.info('User changed theme variation to Light.');
-                $themeChanger.removeClass('fa-sun fa-palette').addClass('fa-moon');
+                $themeChanger.removeClass('fa-sun').addClass('fa-moon');
                 break;
         }
         renderThemeVariation(isDarkTheme);
@@ -1291,7 +1291,7 @@
             let $themeChanger = $('.js-dark-toggle i');
             switch (themeMode) {
                 case 0:
-                    $themeChanger.removeClass('fa-sun fa-palette').addClass('fa-moon');
+                    $themeChanger.removeClass('fa-sun').addClass('fa-moon');
                     console.info('Initialize theme variation to Light.');
                     break;
                     // case 1:
@@ -1299,7 +1299,7 @@
                     //     console.info('Initialize theme variation to Dark.');
                     //     break;
                 default:
-                    $themeChanger.removeClass('fa-moon fa-palette').addClass('fa-sun');
+                    $themeChanger.removeClass('fa-moon').addClass('fa-sun');
                     console.info('Initialize theme variation to Auto.');
                     break;
             }
