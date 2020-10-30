@@ -69,7 +69,7 @@ body {
     text-align: justify;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
@@ -10000,8 +10000,9 @@ html {
 }
 
 body {
+    text-align: justify;
     font-family: inherit;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: inherit;
     color: inherit;
     background-color: #fff;
