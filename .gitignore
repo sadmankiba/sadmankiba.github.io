@@ -7,3 +7,5 @@ public/
 
 # mac
 .DS_Store
+
+_site/
