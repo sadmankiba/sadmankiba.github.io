@@ -9,3 +9,6 @@ public/
 .DS_Store
 
 _site/
+
+# Gems
+Gemfile.lock
