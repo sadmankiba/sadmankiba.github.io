@@ -505,6 +505,14 @@ mark,
     content: "\2014\00A0"
 }
 
+.img-container {
+    display: flex;
+}
+
+.img-container img {
+    float: left;
+}
+
 .img-fluid {
     max-width: 100%;
     height: auto
