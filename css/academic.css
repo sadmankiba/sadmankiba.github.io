@@ -8,6 +8,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+/* html tags style */
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -1623,6 +1624,8 @@ pre code {
         margin-left: 91.66666667%
     }
 }
+
+/* custom class styles */
 
 .table {
     width: 100%;
