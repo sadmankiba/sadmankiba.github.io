@@ -1,0 +1,145 @@
+<section id="projects" class="home-section wg-experience   ">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4 section-heading">
+                <h1>Projects</h1>
+            </div>
+            <div class="col-12 col-lg-8">
+                <div class="row experience">
+                    {% include projects/top-project-side.html %}
+                    <div class="col py-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title exp-title text-muted mt-0 mb-1">Mitigating Hallucination in Vision-Language Models</h4>
+                                <h4 class="card-title exp-company text-muted my-0">Course Project</h4>
+                                <div class="text-muted exp-meta">
+                                    Oct 2024 - Dec 2024
+                                    <span class="middot-divider"></span>                                       
+                                    <p>
+                                        We are reimplementing and evaluating recent proposed techniques for reducing 
+                                        hallucination in vision-language models. We are implementing factually augmented 
+                                        RLHF that reduces reward hacking by incorporating ground-truth information 
+                                        about image during reward model training. 
+                                        <a href="">[Code]</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row experience">
+                    {% include projects/mid-project-side.html %}
+                    <div class="col py-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title exp-title text-muted mt-0 mb-1">Unsupervised Domain Adaptation for Semantic Segmentation</h4>
+                                <h4 class="card-title exp-company text-muted my-0">Course Project</h4>
+                                <div class="text-muted exp-meta">
+                                    Oct 2024 - Dec 2024
+                                    <span class="middot-divider"></span>                                       
+                                    <p>
+                                        Test time images can vary from training dataset due to different lighting conditions, weather, location or camera settings. 
+                                        Retraining a model is expensive and time-consuming. We are implementing a domain adaptation technique to adapt the model 
+                                        at test-time in an unsupervised manner for semantic segmentation tasks.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row experience">
+                    {% include projects/mid-project-side.html %}
+                    <div class="col py-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title exp-title text-muted mt-0 mb-1">Hybrid Model Architecture for Language Tasks</h4>
+                                <h4 class="card-title exp-company text-muted my-0">Course Project</h4>
+                                <div class="text-muted exp-meta">
+                                    Oct 2024 - Dec 2024
+                                    <span class="middot-divider"></span>                                       
+                                    <p>
+                                        Recent architectures based on state-space models are rivaling transformers in various language tasks 
+                                        that has motivated community to explore hybrid models. We have implemented parallel block-based 
+                                        hybrid architecture combining transformers and Mamba model blocks.  
+                                        <a href="">[Code]</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row experience">
+                    {% include projects/mid-project-side.html %}
+                    <div class="col py-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title exp-title text-muted mt-0 mb-1">Memory-efficient Low-Rank Training for Large Foundation Models</h4>
+                                <h4 class="card-title exp-company text-muted my-0">Course Project</h4>
+                                <div class="text-muted exp-meta">
+                                    Mar 2024 - May 2024
+                                    <span class="middot-divider"></span>                                       
+                                    <p>
+                                        LoRA adaptation reduces the number of trainable parameters in fine-tuning. Recent works have also extended LoRA 
+                                        for pre-training large models. In this project, we evaluated the performance of two recent LoRA-inspired 
+                                        techniques (LTE and GaLore) on large language and vision models. Our experiments show that parallel 
+                                        LoRA with a small rank can achieve performance close to full-parameter training, ViTs can converge faster 
+                                        and achieve higher accuracy with LoRA adaptation and LoRA is most effective in the attention layers of a 
+                                        Transformer model.
+                                        <a href="">[Code]</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row experience">
+                    {% include projects/mid-project-side.html %}
+                    <div class="col py-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title exp-title text-muted mt-0 mb-1">Explaining Delayed Generalization (Grokking) of Overparameterized Models</h4>
+                                <h4 class="card-title exp-company text-muted my-0">Course Project</h4>
+                                <div class="text-muted exp-meta">
+                                    Mar 2024 - May 2024
+                                    <span class="middot-divider"></span>                                       
+                                    <p>
+                                        Grokking is the delayed generalization phenomena observed when training a small dataset 
+                                        with an overparameterized model. In this project, we reproduced grokking in Transformer and MLP models, 
+                                        and explained the relationship of hyperparameters and model parameters with grokking. Our results establish 
+                                        the strong effect of training data size and batch size to grokking delays, and demonstrate the empirical 
+                                        properties of loss contour and weight norm in grokking.
+                                        <a href="">[Code]</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row experience">
+                    {% include projects/bottom-project-side.html %}
+                    <div class="col py-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title exp-title text-muted mt-0 mb-1">Distributed Hash Join On Remote Shared Memory</h4>
+                                <h4 class="card-title exp-company text-muted my-0">Research Project</h4>
+                                <div class="text-muted exp-meta">
+                                    Jan 2024 – Aug 2024
+                                    <span class="middot-divider"></span>                                       
+                                    <p>
+                                        Building hash table on distributed nodes can consume a significant amount of memory. In this project, we explore the 
+                                        feasibility of building a hash table on remote shared memory. We implemented a distributed hash join algorithm with 
+                                        Actor framework and Arrow on top of a linear-probing hash table.   
+                                        <a href="">[Code]</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </br>
+        </br>
+        </br>
+    </div>
+</section>
