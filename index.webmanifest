@@ -5,11 +5,11 @@
     "theme_color": "#2962ff",
     "background_color": "#2962ff",
     "icons": [{
-        "src": "/img/UCI-Logo.png",
+        "src": "/img/ss_192x192.png",
         "sizes": "192x192",
         "type": "image/png"
     }, {
-        "src": "/img/UCI-Logo.png",
+        "src": "/img/ss_512x512.png",
         "sizes": "512x512",
         "type": "image/png"
     }],
